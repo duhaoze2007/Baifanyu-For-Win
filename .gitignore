@@ -1,0 +1,15 @@
+# Build output
+BaifanYu.exe
+build/
+*.o
+*.res
+*.res.o
+
+# (see build.sh for the ASCII staging directory used on non-ASCII paths)
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

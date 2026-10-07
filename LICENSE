@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 Du Haoze
+Copyright (c) 2026 Du Haoze — Windows port
+Copyright (c) 2026 LIN428924379 — original Android app "白饭鱼 / baifanyu"
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +20,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------
+例外：美术资源不在本许可范围内
+The artwork is NOT covered by this license.
+
+assets/skins/ 与 docs/ 下的图片、以及 assets/icons/ 里的图标，均来自原 Android
+项目《白饭鱼》，属于社区同人创作，不适用 MIT 许可，仅限个人非商业使用，
+不得用于任何商业用途。
+
+The image assets (assets/skins/, assets/icons/ and docs/) are community fan art
+taken from the original Android project. They are NOT licensed under the MIT
+License — personal, non-commercial use only.
+
+小黄鸭音效来自 Mixkit（Mixkit Free License）
+Duck squeaks: Mixkit Free License.

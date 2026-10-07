@@ -1,0 +1,35 @@
+// BaifanYu (白饭鱼) for Windows — embedded resources.
+// Everything the app needs (artwork, duck samples, icon, manifest) is compiled
+// into the executable, so the shipped result is one self-contained .exe — the
+// Windows answer to the macOS port's resource-bundled .app.
+#include <windows.h>
+#include "resource.h"
+
+// ------------------------------------------------------------------ application icon
+IDI_APPICON ICON "../assets/icons/app.ico"
+
+// ------------------------------------------------------------------ DPI / compatibility manifest
+1 24 "../src/app.manifest"
+
+// ------------------------------------------------------------------ artwork: bowl-head (饭盆头)
+IDR_SKIN_BASIN_BASE + 0 RCDATA "../assets/skins/basin/basin_stand.png"
+IDR_SKIN_BASIN_BASE + 1 RCDATA "../assets/skins/basin/basin_face_happy.png"
+IDR_SKIN_BASIN_BASE + 2 RCDATA "../assets/skins/basin/basin_face_sad.png"
+IDR_SKIN_BASIN_BASE + 3 RCDATA "../assets/skins/basin/basin_face_angry.png"
+IDR_SKIN_BASIN_BASE + 4 RCDATA "../assets/skins/basin/basin_face_surprised.png"
+IDR_SKIN_BASIN_BASE + 5 RCDATA "../assets/skins/basin/basin_face_shy.png"
+IDR_SKIN_BASIN_BASE + 6 RCDATA "../assets/skins/basin/basin_face_confused.png"
+
+// ------------------------------------------------------------------ artwork: maid outfit (女仆装)
+IDR_SKIN_MAID_BASE + 0 RCDATA "../assets/skins/maid/maid_stand.png"
+IDR_SKIN_MAID_BASE + 1 RCDATA "../assets/skins/maid/maid_face_happy.png"
+IDR_SKIN_MAID_BASE + 2 RCDATA "../assets/skins/maid/maid_face_sad.png"
+IDR_SKIN_MAID_BASE + 3 RCDATA "../assets/skins/maid/maid_face_angry.png"
+IDR_SKIN_MAID_BASE + 4 RCDATA "../assets/skins/maid/maid_face_surprised.png"
+IDR_SKIN_MAID_BASE + 5 RCDATA "../assets/skins/maid/maid_face_shy.png"
+IDR_SKIN_MAID_BASE + 6 RCDATA "../assets/skins/maid/maid_face_confused.png"
+
+// ------------------------------------------------------------------ duck squeaks (Mixkit Free License)
+IDR_DUCK1 RCDATA "../assets/sounds/duck1.wav"
+IDR_DUCK2 RCDATA "../assets/sounds/duck2.wav"
+IDR_DUCK3 RCDATA "../assets/sounds/duck3.wav"
